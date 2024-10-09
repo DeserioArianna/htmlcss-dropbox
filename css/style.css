@@ -109,3 +109,10 @@ hr {
     background-color: #00ffff;
     min-height: 200px;
 }
+
+.main-bottom {
+    margin-top: 100px;
+    /* debug */
+    background-color: #90ee90;
+    min-height: 150px;
+}
