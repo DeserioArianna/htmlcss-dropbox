@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    padding: 20px 20px;
+
+    /* debug */
+    background-color: #ffa500;
+
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.bg-sky {
+    background-color: #b4d0e6;
+    height: 400px;
+}
+
+.space {
+    padding-top: 150px;
+    display: flex;
+}
+
+.box-40 {
+    width: 40%;
+
+    /* debug */
+    background-color: #00ffff;
+    min-height: 300px;
+}
+
+.box-60 {
+    width: 60%;
+
+    /* debug */
+    background-color: #ffffe0;
+    min-height: 300px;
+}
