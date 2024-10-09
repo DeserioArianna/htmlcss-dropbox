@@ -43,3 +43,69 @@
     background-color: #ffffe0;
     min-height: 300px;
 }
+
+.container-1 {
+    width: 60%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+hr {
+    margin-top: 80px;
+    border: 1px solid #d3d3d3;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 150px;
+    min-height: 300px;
+}
+
+.col, .col-1, .col-2 {
+    width: calc((100% - 20px) / 3);
+    
+    /* debug */
+    background-color: #00ffff;
+    min-height: 300px;
+}
+
+.column {
+    margin-top: 50px;
+
+    /* debug */
+    min-height: 150px;
+    border: 1px solid black;
+}
+
+.strip {
+    background-color: #ffffe0;
+    min-height: 30px;
+}
+.rectangle {
+    display: flex;
+}
+
+.box-70 {
+    width: 70%;
+    margin: 30px 10px;
+    /* debug */
+    background-color: #ffa07a;
+    min-height: 150px;
+}
+
+.box-30 {
+    width: 30%;
+    margin: 30px 10px;
+    /* debug */
+    background-color: #20b2aa;
+}
+
+.col-3, .col-4, .col-5 {
+    width: calc((100% - 20px) / 3 );
+
+    /* debug */
+    background-color: #00ffff;
+    min-height: 200px;
+}
