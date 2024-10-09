@@ -111,8 +111,28 @@ hr {
 }
 
 .main-bottom {
-    margin-top: 100px;
+    margin: 100px 0;
     /* debug */
     background-color: #90ee90;
     min-height: 150px;
+}
+
+
+footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    min-height: 400px;
+}
+
+.info {
+    width: 100%;
+
+    /* debug */
+    background-color: #ff0000;
+    min-height: 300px;
+
 }
