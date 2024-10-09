@@ -6,12 +6,19 @@
 
 .header-top {
     padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
 
     /* debug */
     background-color: #ffa500;
 
 }
 
+.logo, .login {
+    width: 30%;
+    min-height: 20px;
+    background-color: darkblue;
+}
 .container {
     width: 80%;
     max-width: 1100px;
