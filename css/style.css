@@ -14,10 +14,37 @@
 
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo-1 {
+    display: flex;
+    font-size: small;
+}
+
+.login-1 {
+    display: flex;
+    font-size: small;
+}
+
+.small {
+    width: 50%;
+    height: auto;
+}
+
 .logo, .login {
-    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
     min-height: 20px;
-    background-color: darkblue;
+    /* background-color: darkblue; */
 }
 .container {
     width: 80%;
