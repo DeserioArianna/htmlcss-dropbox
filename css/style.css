@@ -247,7 +247,9 @@ footer {
 
 .info {
     width: 100%;
-
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
     /* debug */
     background-color: #ff0000;
     min-height: 300px;
